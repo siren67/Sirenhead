@@ -1,10 +1,6 @@
  (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
-new file mode 100644
-index 0000000000000000000000000000000000000000..78c70cf7306b20fea35cfe60e2db5e0ec2d9554b
---- /dev/null
-+++ b/README.md
-@@ -0,0 +1,50 @@
+
 +# Google-Backed Chatbot (Minimal)
 +
 +This repository contains a minimal Python chatbot that answers questions by querying the Google Custom Search JSON API.
